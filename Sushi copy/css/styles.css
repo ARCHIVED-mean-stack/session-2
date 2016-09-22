@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  color: #333;
+  font-size: 100%;
+  font-family: Helvetica, arial, sans-serif; }
+
+.wrapper {
+  max-width: 67em;
+  margin: 0 auto; }
+
+nav {
+  margin-bottom: 1em; }
+  nav ul {
+    list-style: none; }
+  nav li {
+    display: inline-block;
+    margin-right: 1em; }
+  nav a {
+    color: #333;
+    text-decoration: none;
+    padding: .5em;
+    display: block;
+    background-color: #f0dfb4; }
+  nav a:hover {
+    color: #fff;
+    background-color: #600; }
+
+.info {
+  position: static;
+  width: 100%;
+  background-color: #f0dfb4;
+  padding: .5em;
+  border: 1px solid #600;
+  font-size: 0.875rem; }
+  .info th {
+    text-align: left; }
+  @media (min-width: 46.25em) {
+    .info {
+      position: absolute;
+      top: 0;
+      left: -12rem;
+      width: 10em; } }
+
+article {
+  margin-left: 1em;
+  position: relative; }
+  @media (min-width: 46.25em) {
+    article {
+      margin: 2em 0 0 12em; } }
+
+blockquote {
+  width: 100%;
+  padding: 1em;
+  font-size: 1.5em; }
+  @media (min-width: 46.25em) {
+    blockquote {
+      float: right;
+      width: 40%; } }
+
+p {
+  margin: 1em 0; }
+
+ul {
+  list-style: none; }
+
+img {
+  float: right; }
+
+/*nav a:before {
+	padding-left: 1em;
+	content: "Q";
+	}*/
+.p-reviews .t-reviews {
+  color: #fff;
+  background: #600; }
+
+.hidden {
+  display: none; }
+
+.main-nav {
+  background: #eee; }
+  .main-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .main-nav a {
+    padding: 1.25rem 0.5rem;
+    font-size: 1.6rem;
+    max-width: 140px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    color: #333; }
+    .main-nav a:hover, .main-nav a:focus {
+      background: #ccc;
+      color: black; }
+      .main-nav a:hover svg, .main-nav a:focus svg {
+        fill: green; }
+      .main-nav a:hover span, .main-nav a:focus span {
+        color: black; }
+  .main-nav span {
+    display: block;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #888;
+    margin: 0.25rem 0 0 0; }
+  .main-nav .icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 1rem;
+    fill: #999; }
+  .main-nav.outlines * {
+    outline: 1px solid rgba(255, 0, 0, 0.5); }
+
+@media (min-width: 1000px) {
+  .main-nav a {
+    max-width: 500px;
+    font-size: 2em; }
+  .main-nav .icon {
+    width: 25px;
+    height: 25px; } }
+.options {
+  text-align: center;
+  padding: 2rem 0; }
+  .options select {
+    margin-right: 2rem; }
+
+/*# sourceMappingURL=styles.css.map */

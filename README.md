@@ -4,9 +4,8 @@ Python Simple Server `python -m SimpleHTTPServer <port>`
 
 ##SASS
 
-* comments
-* error checking
-* variables
+* error checking - whatch out for this
+* variables - add padding
 * imports and structure
 
 [Bootstrap SASS](https://github.com/twbs/bootstrap-sass)
@@ -15,7 +14,43 @@ Python Simple Server `python -m SimpleHTTPServer <port>`
 
 * Mobile first design
 * Use min-width media queries to add features to larger screens `@media (min-width: 46.25em) { }`
-* Use the meta tag to ensure this works on devices: [Viewport Demo](http://daniel.deverell.com/css-files/responsive-meta-example.zip)
+* Use the meta tag to ensure this works on devices: [Viewport Demo for Phone](http://daniel.deverell.com/css-files/responsive-meta-example/)
+
+```
+.info {
+	position: static;
+	width: 100%;
+	background-color: $tan;
+	padding: .5em;
+	border: 1px solid #600;
+	font-size: 0.875rem;
+
+	th {
+		text-align: left;
+	}
+
+	@media (min-width: 46.25em) {
+		position: absolute;
+		top: 0;
+		left: -12rem;
+		width: 10em;
+	}
+}
+
+
+article {
+	margin-left: 1em;
+	position: relative;
+	@media (min-width: 46.25em) {
+		margin: 2em 0 0 12em;
+	}
+}
+```
+
+##SVG
+https://developer.mozilla.org/en-US/docs/Web/SVG/Element
+
+<use>
 
 ##Second Page
 
@@ -55,5 +90,7 @@ $font-family: 'Lato', sans-serif;
 1. 
 
 ##Reading
-Ethan Marcotte - [Responsive Web Design](https://abookapart.com/products/responsive-web-design)
-Dan Cederholm - [SASS for Web Designers](https://abookapart.com/products/sass-for-web-designers)
+
+Chris Coyier - [Practical SVG](https://abookapart.com/products/practical-svg)
+
+

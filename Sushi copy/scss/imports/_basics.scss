@@ -1,0 +1,116 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	color: $dark-gray;
+	font-size: 100%;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+.wrapper {
+	max-width: 67em;
+	margin: 0 auto;
+}
+
+nav {
+	margin-bottom: 1em;
+	ul {
+		list-style: none;
+	}
+	li {
+		display: inline-block;
+		margin-right: 1em;
+	}
+	a {
+		color: $dark-gray;
+		text-decoration: none;
+		padding: .5em;
+		display: block;
+		background-color: $tan;
+	}
+	a:hover {
+		color: #fff;
+		background-color: $reddish;
+	}
+
+}
+
+.info {
+	position: static;
+	width: 100%;
+	background-color: $tan;
+	padding: .5em;
+	border: 1px solid #600;
+	font-size: 0.875rem;
+
+	th {
+		text-align: left;
+	}
+
+	@media (min-width: 46.25em) {
+		position: absolute;
+		top: 0;
+		left: -12rem;
+		width: 10em;
+	}
+}
+
+
+article {
+	margin-left: 1em;
+	position: relative;
+	@media (min-width: 46.25em) {
+		margin: 2em 0 0 12em;
+	}
+}
+
+blockquote {
+	width: 100%;
+	padding: 1em;
+	font-size: 1.5em;
+
+	@media (min-width: 46.25em) {
+		float: right;
+		width: 40%;
+	}
+}
+
+p {
+	margin: 1em 0;
+}
+
+ul {
+	list-style: none;
+}
+img {
+	float: right;
+}
+/*nav a:before {
+	padding-left: 1em;
+	content: "Q";
+	}*/
+
+.p-reviews .t-reviews { 
+    color: #fff; 
+    background: $reddish; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
