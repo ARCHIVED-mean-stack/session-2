@@ -16,41 +16,22 @@ Python Simple Server `python -m SimpleHTTPServer <port>`
 * Use min-width media queries to add features to larger screens `@media (min-width: 46.25em) { }`
 * Use the meta tag to ensure this works on devices: [Viewport Demo for Phone](http://daniel.deverell.com/css-files/responsive-meta-example/)
 
-```
-.info {
-	position: static;
-	width: 100%;
-	background-color: $tan;
-	padding: .5em;
-	border: 1px solid #600;
-	font-size: 0.875rem;
-
-	th {
-		text-align: left;
-	}
-
-	@media (min-width: 46.25em) {
-		position: absolute;
-		top: 0;
-		left: -12rem;
-		width: 10em;
-	}
-}
-
-
-article {
-	margin-left: 1em;
-	position: relative;
-	@media (min-width: 46.25em) {
-		margin: 2em 0 0 12em;
-	}
-}
-```
 
 ##SVG
-https://developer.mozilla.org/en-US/docs/Web/SVG/Element
+[The spec](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and Mozilla docs
 
-<use>
+`<use>` '<viewBox>'
+
+https://icomoon.io
+
+http://responsivelogos.co.uk
+
+http://www.svgeneration.com/recipes/Beam-Center/
+
+##Flex Box
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 
 ##Second Page
 
