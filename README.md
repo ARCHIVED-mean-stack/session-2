@@ -16,11 +16,89 @@ Python Simple Server `python -m SimpleHTTPServer <port>`
 * Use min-width media queries to add features to larger screens `@media (min-width: 46.25em) { }`
 * Use the meta tag to ensure this works on devices: [Viewport Demo for Phone](http://daniel.deverell.com/css-files/responsive-meta-example/)
 
+###SASS for responsive design of new navbar 
+```
+.hidden {
+  display: none;
+}
+
+.options {
+  text-align: center;
+  padding: 2rem 0;
+  select {
+    margin-right: 2rem;
+  }
+}
+
+
+.main-nav {
+  background: #eee;
+  margin-bottom: 1em;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  a {
+    padding: 1.25rem 0.5rem;
+    font-size: 1rem;
+    max-width: 140px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    color: $reddish;
+    background-color: $tan;
+    &:hover, &:focus {
+      background-color: $reddish;
+      color: $white;
+      svg {
+        fill: $white; 
+      }
+      span {
+        color: $white; 
+      }
+    }
+  }
+  span {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #888;
+    margin: 0.25rem 0 0 0;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 1rem;
+    fill: #999;
+  }
+  &.outlines {
+    * {
+      outline: 1px solid rgba(red, 0.5); 
+    }
+  }
+}
+
+@media (min-width: $break-one) {
+  .main-nav {
+    a {
+      max-width: 500px;
+      font-size: 1.5rem; 
+    }
+    .icon {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+```
+
 
 ##SVG
 [The spec](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and Mozilla docs
 
-`<use>` '<viewBox>'
+`<use>` `<viewBox>`
 
 https://icomoon.io
 

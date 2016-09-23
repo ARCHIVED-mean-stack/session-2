@@ -11,55 +11,75 @@ html, body {
 	font-family: Helvetica, arial, sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+
 .wrapper {
 	max-width: 67em;
 	margin: 0 auto;
-	position: relative;
 }
 
-nav {
-	margin-bottom: 1em;
-	ul {
-		list-style: none;
+header {
+	color: $reddish;
+	padding: 1rem;
+	@media (min-width: $break-one){
+		padding: 0x;
 	}
-	li {
-		display: inline-block;
-		margin-right: 1em;
-	}
-	a {
-		color: $dark-gray;
-		text-decoration: none;
-		padding: .5em;
-		display: block;
-		background-color: $tan;
-	}
-	a:hover {
-		color: #fff;
-		background-color: $reddish;
-	}
-
 }
 
 .info {
-	position: static;
 	width: 100%;
 	background-color: $tan;
-	padding: .5em;
-	border: 1px solid #600;
+	padding: .5rem;
+	border: 1px solid $reddish;
+	font-size: 0.875rem;
+	margin-right: 2em;
+	margin-bottom: 1em;
+	float: left;
 
-	@media (min-width: 46.25em) {
+	th {
+		text-align: left;
+	}
+
+	ul {
+		float: left;
+		width: 40%;
+		@media (min-width: $break-one) {
+			margin-top: 1em;
+			width: 100%;
+		}
+	}
+
+	table {
+		float: right;
+		width: 40%;
+		@media (min-width: $break-one) {
+			float: none;
+			width: 100%;
+		}
+	}
+
+	@media (min-width: $break-one) {
 		position: absolute;
-		top: 10em;
-		left: 0;
-		width: 10em;
+		top: 0;
+		left: -12rem;
+		width: 11rem;
 	}
 }
 
 
 article {
-	margin-left: 1em;
+	margin: 0 1em 0 1em;
+	position: relative;
 
-	@media (min-width: 46.25em) {
+	h2 {
+		color: $reddish;
+	}
+	@media (min-width: $break-one) {
 		margin: 2em 0 0 12em;
 	}
 }
@@ -68,8 +88,9 @@ blockquote {
 	width: 100%;
 	padding: 1em;
 	font-size: 1.5em;
-
-	@media (min-width: 46.25em) {
+	color: $reddish;
+	font-style: italic;
+	@media (min-width: $break-one) {
 		float: right;
 		width: 40%;
 	}
@@ -90,10 +111,10 @@ img {
 	content: "Q";
 	}*/
 
-.p-cuisines .t-cuisines { 
-    color: #fff; 
-    background: $reddish; 
-} 
+	.p-reviews .t-reviews { 
+		color: #fff; 
+		background: $reddish; 
+	} 
 
 
 

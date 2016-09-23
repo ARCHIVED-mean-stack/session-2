@@ -97,6 +97,12 @@ img {
 .hidden {
   display: none; }
 
+.options {
+  text-align: center;
+  padding: 2rem 0; }
+  .options select {
+    margin-right: 2rem; }
+
 .main-nav {
   background: #eee;
   margin-bottom: 1em; }
@@ -142,10 +148,5 @@ img {
   .main-nav .icon {
     width: 25px;
     height: 25px; } }
-.options {
-  text-align: center;
-  padding: 2rem 0; }
-  .options select {
-    margin-right: 2rem; }
 
 /*# sourceMappingURL=styles.css.map */

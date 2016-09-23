@@ -8,52 +8,71 @@ html, body {
   font-size: 100%;
   font-family: Helvetica, arial, sans-serif; }
 
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
 .wrapper {
   max-width: 67em;
-  margin: 0 auto;
-  position: relative; }
+  margin: 0 auto; }
 
-nav {
-  margin-bottom: 1em; }
-  nav ul {
-    list-style: none; }
-  nav li {
-    display: inline-block;
-    margin-right: 1em; }
-  nav a {
-    color: #333;
-    text-decoration: none;
-    padding: .5em;
-    display: block;
-    background-color: #f0dfb4; }
-  nav a:hover {
-    color: #fff;
-    background-color: #600; }
+header {
+  color: #600;
+  padding: 1rem; }
+  @media (min-width: 46.25rem) {
+    header {
+      padding: 0x; } }
 
 .info {
-  position: static;
   width: 100%;
   background-color: #f0dfb4;
-  padding: .5em;
-  border: 1px solid #600; }
-  @media (min-width: 46.25em) {
+  padding: .5rem;
+  border: 1px solid #600;
+  font-size: 0.875rem;
+  margin-right: 2em;
+  margin-bottom: 1em;
+  float: left; }
+  .info th {
+    text-align: left; }
+  .info ul {
+    float: left;
+    width: 40%; }
+    @media (min-width: 46.25rem) {
+      .info ul {
+        margin-top: 1em;
+        width: 100%; } }
+  .info table {
+    float: right;
+    width: 40%; }
+    @media (min-width: 46.25rem) {
+      .info table {
+        float: none;
+        width: 100%; } }
+  @media (min-width: 46.25rem) {
     .info {
       position: absolute;
-      top: 10em;
-      left: 0;
-      width: 10em; } }
+      top: 0;
+      left: -12rem;
+      width: 11rem; } }
 
 article {
-  margin-left: 1em; }
-  @media (min-width: 46.25em) {
+  margin: 0 1em 0 1em;
+  position: relative; }
+  article h2 {
+    color: #600; }
+  @media (min-width: 46.25rem) {
     article {
       margin: 2em 0 0 12em; } }
 
 blockquote {
   width: 100%;
   padding: 1em;
-  font-size: 1.5em; }
-  @media (min-width: 46.25em) {
+  font-size: 1.5em;
+  color: #600;
+  font-style: italic; }
+  @media (min-width: 46.25rem) {
     blockquote {
       float: right;
       width: 40%; } }
@@ -71,7 +90,7 @@ img {
 	padding-left: 1em;
 	content: "Q";
 	}*/
-.p-cuisines .t-cuisines {
+.p-reviews .t-reviews {
   color: #fff;
   background: #600; }
 
