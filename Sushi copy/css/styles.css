@@ -90,7 +90,8 @@ img {
 	padding-left: 1em;
 	content: "Q";
 	}*/
-.p-reviews .t-reviews {
+.p-reviews .t-reviews,
+.p-recipes .t-recipes {
   color: #fff;
   background: #600; }
 
