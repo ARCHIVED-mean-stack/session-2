@@ -241,11 +241,24 @@ nothing to commit, working directory clean
 ```
 ```
 git branch
-git branch <name>
-git checkout <name>
+git branch <branchname>
+git checkout <branchname>
 git diff
 ```
-
+To merge branches 
+* be in the branch you want to merge to
+* run status on that branch to make sure nothing is odd
+```
+git checkout master
+git status
+git merge <branchname>
+```
+Other useful branch commands (delete, show unmerged and merged branches)
+```
+git branch -d <branchname>
+git branch --no-merge
+git branch --merged
+```
 Pushing Files to Remote Repos - Github
 * Copy URL from github.
 ```
@@ -270,7 +283,7 @@ git push -u origin master
 
 ##Homework
 
-1. Run through the [GIT exersize](https://try.github.io/levels/1/challenges/1) 
+1. Run through the [GIT exercise](https://try.github.io/levels/1/challenges/1) 
 
 ##Reading
 
