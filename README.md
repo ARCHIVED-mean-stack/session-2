@@ -188,6 +188,72 @@ Add a new SASS file to the imports and use the following:
 
 ```
 
+Check that we are all using the CSS-based navigation 
+
+```
+<body class="p-cuisines">
+
+<li><a class="t-cuisines" href="#">Cuisines</a></li> 
+<li><a class="t-recipes" href="#">Recipes</a></li>
+
+.p-cuisines .t-cuisines { 
+  color: #fff; 
+  background:#600; 
+} 
+```
+
+##GIT and GITHUB
+
+Git Config (typically only need to do this once on your machine)
+```
+git config
+git config --global user.name "DannyBoyNYC"
+git config --global user.email "daniel.deverell@gmail.com"
+git config --list
+```
+* make sure terminal is in the correct directory
+```
+git init
+```
+Examine the .git Directory
+```
+ls -al
+cd .git
+ls
+cd ..
+```
+Git Status
+```
+git status
+On branch master
+```
+Git doesn't auto track files - only those you tell it to. Adding files creates untracked files. Create and add .gitignore run status.
+```
+git status
+git commit -m 'initial commit'
+```
+Note: By default `git commit` goes into VIM. Avoid this (unless you like VM). If this happens, hit ESC and type “:q” to exit.
+
+```
+git status
+On branch master
+nothing to commit, working directory clean
+```
+```
+git branch
+git branch <name>
+git checkout <name>
+git diff
+```
+
+Pushing Files to Remote Repos - Github
+* Copy URL from github.
+```
+git remote add origin https://github.com/.../...
+git push -u origin master
+```
+
+
 ##Second Page
 
 ###Static Pages
@@ -202,28 +268,9 @@ Add a new SASS file to the imports and use the following:
 * Benefits - same code for mobile and web, performance leverages the client (distributed), standardization on JS, html and css, speed and increased modularity.
 * Routing
 
-```
-<body class="p-cuisines">
-
-<li><a class="t-cuisines" href="#">Cuisines</a></li> 
-<li><a class="t-recipes" href="#">Recipes</a></li>
-
-.p-cuisines .t-cuisines { 
-	color: #fff; 
-	background:#600; 
-} 
-```
-
-##Google font
-
-```
-@import url('http://fonts.googleapis.com/css?family=Lato:300,400,700');
-$font-family: 'Lato', sans-serif;
-```
-
 ##Homework
 
-1. 
+1. Run through the [GIT exersize](https://try.github.io/levels/1/challenges/1) 
 
 ##Reading
 
