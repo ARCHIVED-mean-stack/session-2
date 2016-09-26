@@ -4,8 +4,8 @@ Python Simple Server `python -m SimpleHTTPServer <port>`
 
 ##SASS
 
-* error checking - whatch out for this
-* variables - add padding
+* error checking - watch out for this
+* variables - added padding and breakpoint
 * imports and structure
 
 [Bootstrap SASS](https://github.com/twbs/bootstrap-sass)
@@ -16,11 +16,11 @@ Python Simple Server `python -m SimpleHTTPServer <port>`
 * Use min-width media queries to add features to larger screens `@media (min-width: 46.25em) { }`
 * Use the meta tag to ensure this works on devices: [Viewport Demo for Phone](http://daniel.deverell.com/css-files/responsive-meta-example/)
 
-
-
 ##FlexBox
 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+A simple guide to the various CSS properties on [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+###A simple Flex Nav
 
 ```
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
@@ -98,22 +98,31 @@ body {
     width: 100%;
   }
 }
-
+```
+[Font Awesome](http://fontawesome.io/)
 ```
 
-###SASS for responsive design of new navbar 
-```
-.hidden {
-  display: none;
-}
+<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 
-.options {
-  text-align: center;
-  padding: 2rem 0;
-  select {
-    margin-right: 2rem;
-  }
-}
+<i class="fa fa-gear"></i>
+
+```
+##SVG
+[The spec](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and Mozilla docs
+
+`<use>` `<viewBox>`
+
+https://icomoon.io
+
+http://responsivelogos.co.uk
+
+http://www.svgeneration.com/recipes/Beam-Center/
+
+###SASS responsive design of new navbar with SVG
+
+Add a new SASS file to the imports and use the following:
+
+```
 
 .main-nav {
   background: #eee;
@@ -176,20 +185,8 @@ body {
     }
   }
 }
+
 ```
-
-
-##SVG
-[The spec](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and Mozilla docs
-
-`<use>` `<viewBox>`
-
-https://icomoon.io
-
-http://responsivelogos.co.uk
-
-http://www.svgeneration.com/recipes/Beam-Center/
-
 
 ##Second Page
 
