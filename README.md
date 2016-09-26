@@ -292,5 +292,6 @@ git push -u origin master
 ##Reading
 
 Chris Coyier - [Practical SVG](https://abookapart.com/products/practical-svg)
+David Demaree - [GIT For Humans](https://abookapart.com/products/git-for-humans)
 
 
