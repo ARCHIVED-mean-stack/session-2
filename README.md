@@ -284,7 +284,10 @@ git push -u origin master
 
 ##Homework
 
-1. Run through the [GIT exercise](https://try.github.io/levels/1/challenges/1) 
+1. Run through this [GIT exercise](https://try.github.io/levels/1/challenges/1) 
+2. Create a repo on your local machine using the homework from session one. Push it to your Github account. 
+3. Add a branch, use Flexbox on your navbar (or another part of your page if desired) and push this branch you your Github account.
+4. (Optional) Add SVG elements to your page.
 
 ##Reading
 
