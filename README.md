@@ -17,8 +17,8 @@ Python Simple Server `python -m SimpleHTTPServer <port>`
 * Use the meta tag to ensure this works on devices: [Viewport Demo for Phone](http://daniel.deverell.com/css-files/responsive-meta-example/)
 
 ##FlexBox
-
-A simple guide to the various CSS properties on [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* CSS Flexible Box Layout Module
+* A simple guide to the various CSS properties on [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ###A simple Flex Nav
 
@@ -27,6 +27,7 @@ A simple guide to the various CSS properties on [CSS Tricks](https://css-tricks.
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .site-header {
