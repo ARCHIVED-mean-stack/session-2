@@ -16,6 +16,91 @@ Python Simple Server `python -m SimpleHTTPServer <port>`
 * Use min-width media queries to add features to larger screens `@media (min-width: 46.25em) { }`
 * Use the meta tag to ensure this works on devices: [Viewport Demo for Phone](http://daniel.deverell.com/css-files/responsive-meta-example/)
 
+
+
+##FlexBox
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+```
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.site-header {
+  background: #0D1313;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 10px;
+}
+
+.site-nav {
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #CDD0D0;
+    padding: 20px;
+    display: inline-block;
+  }
+  .active {
+    a {
+      font-weight: bold;
+      color: #62DEBE;
+      background: darken(#62DEBE, 40%);
+    }
+  }
+}
+
+.account-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.account-dropdown {
+  ul {
+    display: none;
+  }
+}
+
+.sign-out-link {
+  color: #62DEBE;
+  font-size: 0.8rem;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .site-header {
+    flex-wrap: wrap;
+  }
+  .site-nav {
+    order: 2;
+    background: #333;
+    width: 100%;
+  }
+}
+
+```
+
 ###SASS for responsive design of new navbar 
 ```
 .hidden {
@@ -29,7 +114,6 @@ Python Simple Server `python -m SimpleHTTPServer <port>`
     margin-right: 2rem;
   }
 }
-
 
 .main-nav {
   background: #eee;
@@ -105,10 +189,6 @@ https://icomoon.io
 http://responsivelogos.co.uk
 
 http://www.svgeneration.com/recipes/Beam-Center/
-
-##Flex Box
-
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
 ##Second Page
