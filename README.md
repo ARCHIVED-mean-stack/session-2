@@ -16,6 +16,70 @@ Python Simple Server `python -m SimpleHTTPServer <port>`
 * Use min-width media queries to add features to larger screens `@media (min-width: 46.25em) { }`
 * Use the meta tag to ensure this works on devices: [Viewport Demo for Phone](http://daniel.deverell.com/css-files/responsive-meta-example/)
 
+##GIT and GITHUB
+
+Git Config (typically only need to do this once on your machine)
+```
+git config
+git config --global user.name "DannyBoyNYC"
+git config --global user.email "daniel.deverell@gmail.com"
+git config --list
+```
+* make sure terminal is in the correct directory
+```
+git init
+```
+Examine the .git Directory
+```
+ls -al
+cd .git
+ls
+cd ..
+```
+Git Status
+```
+git status
+On branch master
+```
+Git doesn't auto track files - only those you tell it to. Adding files creates untracked files. Create and add .gitignore run status.
+```
+git status
+git commit -m 'initial commit'
+```
+Note: By default `git commit` goes into VIM. Avoid this (unless you like VM). If this happens, hit ESC and type “:q” to exit.
+
+```
+git status
+On branch master
+nothing to commit, working directory clean
+```
+```
+git branch
+git branch <branchname>
+git checkout <branchname>
+git diff
+```
+To merge branches 
+* be in the branch you want to merge to
+* run status on that branch to make sure nothing is odd
+```
+git checkout master
+git status
+git merge <branchname>
+```
+Other useful branch commands (delete, show unmerged and merged branches)
+```
+git branch -d <branchname>
+git branch --no-merge
+git branch --merged
+```
+Pushing Files to Remote Repos - Github
+* Copy URL from github.
+```
+git remote add origin https://github.com/.../...
+git push -u origin master
+```
+
 ##FlexBox
 * CSS Flexible Box Layout Module
 * A simple guide to the various CSS properties on [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -202,71 +266,6 @@ Check that we are all using the CSS-based navigation
   background:#600; 
 } 
 ```
-
-##GIT and GITHUB
-
-Git Config (typically only need to do this once on your machine)
-```
-git config
-git config --global user.name "DannyBoyNYC"
-git config --global user.email "daniel.deverell@gmail.com"
-git config --list
-```
-* make sure terminal is in the correct directory
-```
-git init
-```
-Examine the .git Directory
-```
-ls -al
-cd .git
-ls
-cd ..
-```
-Git Status
-```
-git status
-On branch master
-```
-Git doesn't auto track files - only those you tell it to. Adding files creates untracked files. Create and add .gitignore run status.
-```
-git status
-git commit -m 'initial commit'
-```
-Note: By default `git commit` goes into VIM. Avoid this (unless you like VM). If this happens, hit ESC and type “:q” to exit.
-
-```
-git status
-On branch master
-nothing to commit, working directory clean
-```
-```
-git branch
-git branch <branchname>
-git checkout <branchname>
-git diff
-```
-To merge branches 
-* be in the branch you want to merge to
-* run status on that branch to make sure nothing is odd
-```
-git checkout master
-git status
-git merge <branchname>
-```
-Other useful branch commands (delete, show unmerged and merged branches)
-```
-git branch -d <branchname>
-git branch --no-merge
-git branch --merged
-```
-Pushing Files to Remote Repos - Github
-* Copy URL from github.
-```
-git remote add origin https://github.com/.../...
-git push -u origin master
-```
-
 
 ##Second Page
 
