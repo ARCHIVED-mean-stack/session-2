@@ -101,6 +101,7 @@ body {
   color: white;
   display: flex;
   align-items: center;
+  padding:0.5rem;
 }
 
 .logo {
@@ -171,7 +172,7 @@ body {
 
 <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 
-<i class="fa fa-gear"></i>
+<i class="fa fa-bullseye fa-3x"></i>
 
 ```
 ##SVG
@@ -250,6 +251,9 @@ Add a new SASS file to the imports and use the following:
       width: 25px;
       height: 25px;
     }
+    .fa {
+      font-size: 2rem;
+  }
   }
 }
 
