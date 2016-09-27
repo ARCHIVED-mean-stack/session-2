@@ -14,7 +14,9 @@ Python Simple Server `python -m SimpleHTTPServer <port>`
 
 * Mobile first design
 * Use min-width media queries to add features to larger screens `@media (min-width: 46.25em) { }`
-* Use the meta tag to ensure this works on devices: [Viewport Demo for Phone](http://daniel.deverell.com/css-files/responsive-meta-example/)
+* Use the meta tag `<meta name="viewport" content="width=device-width, initial-scale=1.0">` to ensure this works on devices 
+
+[Viewport Demo for Phone](http://daniel.deverell.com/css-files/responsive-meta-example/)
 
 ##GIT and GITHUB
 
