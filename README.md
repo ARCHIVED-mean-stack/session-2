@@ -286,10 +286,11 @@ Check that we are all using the CSS-based navigation
 1. Run through this [GIT exercise](https://try.github.io/levels/1/challenges/1) 
 2. Create a repo on your local machine using the homework from session one. Push it to your Github account. 
 3. Add a branch, use Flexbox on your navbar (or another part of your page if desired) and push this branch to  your Github account.
-4. Add SVG elements to your page. (Use icomoon.)
+4. Add SVG elements to your page. (Use icomoon if you don't have any image apps.)
+5. Add a carousel to the review in last week's homework.
 
 ##Reading
-
+The Document Object Model [quick reference](http://javascript.info/tutorial/dom)
 Chris Coyier - [Practical SVG](https://abookapart.com/products/practical-svg)
 David Demaree - [GIT For Humans](https://abookapart.com/products/git-for-humans)
 
