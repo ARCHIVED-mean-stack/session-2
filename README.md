@@ -88,6 +88,8 @@ git push -u origin master
 
 ###A simple Flex Nav
 
+![Navbar[hero-1.png]
+
 ```
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 
