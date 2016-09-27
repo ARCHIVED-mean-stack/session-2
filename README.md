@@ -286,7 +286,7 @@ git push -u origin master
 
 1. Run through this [GIT exercise](https://try.github.io/levels/1/challenges/1) 
 2. Create a repo on your local machine using the homework from session one. Push it to your Github account. 
-3. Add a branch, use Flexbox on your navbar (or another part of your page if desired) and push this branch to you your Github account.
+3. Add a branch, use Flexbox on your navbar (or another part of your page if desired) and push this branch to  your Github account.
 4. Add SVG elements to your page. (Use icomoon.)
 
 ##Reading
