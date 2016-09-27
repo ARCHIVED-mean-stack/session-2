@@ -174,6 +174,8 @@ body {
 
 <i class="fa fa-bullseye fa-3x"></i>
 
+<i class="fa fa-gear"></i>
+
 ```
 ##SVG
 [The spec](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and Mozilla docs
