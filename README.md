@@ -292,8 +292,15 @@ Check that we are all using the CSS-based navigation
 5. Add a carousel to the review in last week's homework.
 
 ##Reading
+[You Don't Know JS](You Don't Know JavaScript)
+[Chapter 1](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md)
+[Chapter 2](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md)
+
+###Suggested Reading
 The Document Object Model [quick reference](http://javascript.info/tutorial/dom)
 Chris Coyier - [Practical SVG](https://abookapart.com/products/practical-svg)
 David Demaree - [GIT For Humans](https://abookapart.com/products/git-for-humans)
+
+$ PORT=4000 node app/app.js
 
 
