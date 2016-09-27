@@ -192,6 +192,8 @@ http://www.svgeneration.com/recipes/Beam-Center/
 
 ###SASS responsive design of new navbar with SVG
 
+<img src="hero-2.png">
+
 Add a new SASS file to the imports and use the following:
 
 ```
