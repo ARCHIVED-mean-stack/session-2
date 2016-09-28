@@ -281,20 +281,6 @@ Check that we are all using the CSS-based navigation
 } 
 ```
 
-##Second Page
-
-###Static Pages
-* static app - anchor in browser > request to server > database > html > browser
-* AJAX - ability to refresh data after the app is running (mapquest vs google maps)
-* Progressive enhancement - a trap?
-* Spaghetti Javascript - code modifies existing DOM vs code that creates the DOM
-* Mobile native (receives json) vs browser native (receives html)
-
-###Thick client
-* Modern web architecture - browser requests html > page contains JS that builds the base structure > ajax loads content via json > JS modifies DOM to present content.
-* Benefits - same code for mobile and web, performance leverages the client (distributed), standardization on JS, html and css, speed and increased modularity.
-* Routing
-
 ##Homework
 
 1. Run through this [GIT exercise](https://try.github.io/levels/1/challenges/1) 
