@@ -1,5 +1,7 @@
 #MEAN Session Two
 
+[Here are the files](http://daniel.deverell.com/css-files/mean-session-2.zip) from session 2 as completed by me in class
+
 Python Simple Server `python -m SimpleHTTPServer <port>`
 
 ##SASS
@@ -299,15 +301,17 @@ Check that we are all using the CSS-based navigation
 2. Create a repo on your local machine using the homework from session one. Push it to your Github account. 
 3. Add a branch, use Flexbox on your navbar (or another part of your page if desired) and push this branch to  your Github account.
 4. Add SVG elements to your page. (Use icomoon if you don't have any image apps.)
-5. Add a carousel to the review in last week's homework.
 
 ##Reading
-[You Don't Know JS](You Don't Know JavaScript)
+
+[You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/)
+
 [Chapter 1](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md)
+
 [Chapter 2](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md)
 
 ###Suggested Reading
-The Document Object Model [quick reference](http://javascript.info/tutorial/dom)
+
 Chris Coyier - [Practical SVG](https://abookapart.com/products/practical-svg)
 David Demaree - [GIT For Humans](https://abookapart.com/products/git-for-humans)
 
