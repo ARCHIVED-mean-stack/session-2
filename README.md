@@ -301,6 +301,7 @@ Check that we are all using the CSS-based navigation
 2. Create a repo on your local machine using the homework from session one. Push it to your Github account. 
 3. Add a branch, use Flexbox on your navbar (or another part of your page if desired) and push this branch to  your Github account.
 4. Add SVG elements to your page. (Use icomoon if you don't have any image apps.)
+5. PC users should install Ruby on thier machines from the [Ruby Install](http://rubyinstaller.org) website
 
 ##Reading
 
